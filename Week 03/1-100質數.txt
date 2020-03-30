@@ -1,0 +1,21 @@
+ public class Main
+{
+	 public static void main(String[] args)
+    {
+         System.out.printf("一到一百的質數:\n");
+
+         for (int z = 2; z <= 100; z++) 
+        {
+             for (int j = 2; j < z; j++)
+             {
+                    if (z % j == 0)
+                    break;
+             }
+                    if (j >= z)       
+            {
+		System.out.println(z);
+	    }
+         }
+            
+	}
+}
